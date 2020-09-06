@@ -32,6 +32,6 @@ jobs:
           # Password or personal access token used to log in to a Docker registry. If not set then no login will occur
           password: ${{ secrets.DOCKER_HUB_PWD }}
           # Docker repository to tag the image with
-          repository: andycheung/CICD-example-app
+          repository: andycheung/cicd-example-app
           # Automatically tags the built image with the git reference as per the readme
           tag_with_ref: true
